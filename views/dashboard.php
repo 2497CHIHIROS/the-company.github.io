@@ -28,7 +28,7 @@ $all_products = $user->getAllProducts();
                 </h3>
             </a>
             <div class="navbar-nav">
-                <span class="navbar-text">Welcome, <?=$_SESSION['first_name']?></span>
+                <span class="navbar-text">Welcome, <?=$_SESSION['username']?></span>
                 <form action="../actions/logout.php" method="post" class="d-flex ms-2">
                     <button type="submit" class="text-danger bg-transparent border-0 fs-2">
                         <i class="fa-solid fa-user-xmark text-danger"></i>
